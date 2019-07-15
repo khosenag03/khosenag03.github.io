@@ -1,0 +1,81 @@
+button{
+    margin-right: 30px; 
+}
+
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focusring-color;
+    
+    }
+
+    
+body { 
+        background-color: rgb(168, 202, 73);
+        font-family: 'Exo', sans-serif;
+        color:  rgb(57, 34, 185)
+    }
+img {height: 100%; width: 100%; padding: 30px;}
+
+.panel:hover {
+    border: 10px solid rgb(57, 34, 185);
+}
+
+p {
+    text-align: center; 50px;
+  }
+
+.vizualization{
+    width:50% !important;
+    height:50% !important;
+   
+}
+
+    
+    h1 { color: white}
+    h2 { color: royalblue}
+    h3 { color: white;
+        padding-left: 40px;}
+    h4 { color: rgb(247, 248, 182)}
+    h5 { color: darkcyan}
+    h6 { color: darkgoldenrod}
+    
+/* Style the dropdown content (hidden by default)  */
+.dropdown {
+    display: inline-block;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+  }
+
+/* Style the dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f7f5;
+    min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+/* Footer */
+footer{
+    background-color: #9c9696; 
+    border-top-style: solid; 
+    border-top-width: 5px; 
+    border-top-color: #0BADA6;
+    color: white; 
+    min-height: 55px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px; 
+    }
+    
